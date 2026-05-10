@@ -1,0 +1,48 @@
+Text Preprocessing (V.imp)
+
+
+Convert human language to readable format for ML/DPL to understand.
+
+NLP Pipeline:
+
+Raw text  -> Text Preprocessing -> Feature extraction/embeddings -> model training -> prediction
+
+
+Core Topics:
+Tokenization - breaking text into smaller units called tokens
+		Eg - word tokens (for TF-IDF), sentence tokens, character tokens (for OCR)
+		Types of tokenization - word, subword (very important) and character tokenization
+		In Subword, unhappiness is tokenized into [‘un’, ‘happi’, ‘ness’] which is used in
+		many modern transformers like: OpenAI GPT, Google BERT, T5, LLaMA
+		Why its used? because models cannot store every possible word, so,
+		It helps with unknown, rare words & misspellings
+		Popular algo: BPE (byte pair encoding), wordpiece, sentencepiece
+		Why do transformers prefer subword tokenization? Because it reduces 
+		vocabulary size, handles unseen words, improves generalization
+
+
+Lowercasting - convert text to lowercase
+	Eg - ‘Apple’ -> ‘apple’
+    Without lowercasing ‘Apple’ & ‘apple’ are treated as two different words.
+    Benefits? Reduce vocabulary size, improves consistency
+    Named Entity Recognition may preserve casing.
+
+
+Stopword Removal - are very common words (the, is, are, a, an, in)
+	Why remove? Because they often add little meaning
+	When Should Stopwords not be removed? (V.Imp) sentiment analysis, 
+	Machine translation, question answering, chatbots 
+
+
+Stemming - cuts words to root form using heuristic rules
+		Eg - playing -> play, studies -> studi, running -> run
+		Popular Stemmer: Porter Stemmer
+
+
+Lemmatization - converts words into dictionary/base form (lemma)
+    Eg - better -> good, running -> run, studies -> study
+    Uses - vocabulary, POS tagging, Linguistic rules
+    More accurate than stemming
+    Why preferred? Produces meaningful words, preserves semantics better, 
+    Improve downstream NLP tasks
+    Used in? Search engines, chatbots, semantic NLP system
