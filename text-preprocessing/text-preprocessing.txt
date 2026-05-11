@@ -46,3 +46,17 @@ Lemmatization - converts words into dictionary/base form (lemma)
     Why preferred? Produces meaningful words, preserves semantics better, 
     Improve downstream NLP tasks
     Used in? Search engines, chatbots, semantic NLP system
+
+Punctuation Handling - remove punctuation if unnecessary
+	eg - 'Hello !!!' -> 'Hello'
+	but punctuation may contain meaning
+	eg - 'I love this !!!' here in this case multiple exclamations indicates emotion. 
+	in sentimental analysis, punctuation can help.
+
+
+Regex Cleaning - regular expressions clean patterns 
+	used for removing - URLs, Emails, HTML tags, Numbers, Extra spaces
+	eg - re.sub(r'http\S+', "", text)
+	this eg removes URLs
+	Interview tip - regex is heavily used in real-world NLP pipelines
+	

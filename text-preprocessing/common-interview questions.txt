@@ -1,0 +1,33 @@
+Q1. Why is preprocessing important?
+Q2. Why is stemming less preferred in modern NLP?
+Q3. What preprocessing is often skipped in Transformers?
+
+
+
+Ans -
+1 - Because raw text is noisy and inconsistent.
+
+Preprocessing helps:
+
+Reduce vocabulary size
+Improve model accuracy
+Reduce computation
+Standardize text
+
+
+2 - Because it may damage semantics:
+
+studies → studi
+
+Modern NLP prefers lemmatization/subword tokenization.
+
+
+3 - Important modern NLP question.
+
+Transformers often skip:
+
+Stemming
+Lemmatization
+Heavy stopword removal
+
+Because transformer tokenizers learn contextual meaning.

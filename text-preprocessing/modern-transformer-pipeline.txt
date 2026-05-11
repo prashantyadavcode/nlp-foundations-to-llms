@@ -1,0 +1,8 @@
+in Traditional ML NLP pipeline - Text → Cleaning → Tokenization → TF-IDF → ML Model
+
+but, In Modern Transformer Pipeline - Text
+→ Subword Tokenizer
+→ Embeddings
+→ Transformer
+which is less manual preprocessing needed in LLMs/BERT/GPT systems
+

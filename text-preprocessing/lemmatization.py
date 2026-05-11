@@ -17,3 +17,4 @@ print(lemmatized)
 # because NLTK needs POS tags
 
 # Better to do it with spaCy - code in lemmatization_with_spacy.py
+
