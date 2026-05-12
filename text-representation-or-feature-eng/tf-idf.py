@@ -21,3 +21,12 @@ X = tfidf.fit_transform(documents)
 
 print('Vocabulary: ', tfidf.vocabulary_)
 print('\nBoW Matrix: ', X.toarray())
+
+''' TF-IDF is better than BoW
+- reduces importance of common words
+- highlights informative words
+- usually improves search/retrieval tasks
+- better for document ranking
+'''
+
+
