@@ -15,3 +15,11 @@ X = vectorizer.fit_transform(documents)
 
 print('Vocabulary: ', vectorizer.vocabulary_)
 print('\nBoW Matrix: ', X.toarray())
+
+
+# Problems with BoW - 
+# 1. Sparse Vectors - large memory usage
+# 2. Vocabulary Explosion - Huge vocabulary (cat, cats, Cat, CAT, cat123) due to this vocab becomes massive
+# 3. No semantic meaning - BoW treats - good, excellent as completely unrelated
+
+
