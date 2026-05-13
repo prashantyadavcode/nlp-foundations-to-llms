@@ -1,0 +1,60 @@
+Transformers - are most important architecture of modern NLP
+
+everthing today is built on transformers - 
+1. GPT
+2. BERT
+3. T5
+4. RoBERTa
+5. Distil
+
+
+
+They revolutionized - 
+- NLP
+- Search
+- Chatbots
+- Recommendation systems
+- AI assistants
+- Code generation
+
+
+
+High-level structure - 
+
+Input
+↓
+Embedding
+↓
+Positional Encoding
+↓
+Transformer Layers
+    ├── Multi-Head Attention
+    ├── Feed Forward Network
+    ├── Residual Connection
+    └── Layer Normalization
+↓
+Output
+
+
+2. Encoder and decoder (most imp.)
+encoder - understand input text, used in BERT, RoBERTa
+decoder - generate text, used in GPT, ChatGPT
+encoder-decoder - Input -> Output transformation, used in translation, summarization, T5
+
+
+3. Input Embeddings - words converted into vectors
+eg - 'I love AI' -> [[0.12, 0.55, ...], [0.92, 0.11, ...], [0.45, 0.77, ...]]
+
+
+Problem? transformers ignore order
+self-attention sees all words simultaneously
+without extra info - 'dog bites man' and 'man bites dog' looks similar
+
+
+4. Positional encoding - adds word position info.
+why positional encoding? transformers do not inherently understand sequence order
+positional encoding injects - token postion information
+
+Intuition - each position gets a unique mathematical pattern
+
+model learns - relative and absolute positions
