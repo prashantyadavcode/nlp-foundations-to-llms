@@ -1,0 +1,1 @@
+BoW → TF-IDF → Word2Vec → RNN → LSTM → GRU → Attention → Transformers → LLMs
