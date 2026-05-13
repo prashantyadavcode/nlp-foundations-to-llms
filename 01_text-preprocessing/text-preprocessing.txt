@@ -59,4 +59,23 @@ Regex Cleaning - regular expressions clean patterns
 	eg - re.sub(r'http\S+', "", text)
 	this eg removes URLs
 	Interview tip - regex is heavily used in real-world NLP pipelines
+
+Unicode Normalization - handles different unicode representations
+	eg - café
+	this eg can exist in multiple unicode formats
+	normalization ensures consistency
+	used in - multilingual NLP, search systems, OCR pipelines
+	common forms - NFC, NFD
+
+Handling Emojis & Symbol
+	eg - 'I love this 😍'
+	in this eg, possible approaches - 
+					1 - remove emojis (simpler preprocessing)
+					2 - convert emojis to meaning (imp in social media NLP, sentimental analysis, customers feedback analysis)
+
+
+Sentence Segmentation - splits text into sentences
+	eg - 'I love NLP. it is amazing' -> ['I love NLP', 'It is amazing']
+	needed for - summarization, translation, question answering
+	challenge - periods do not always end sentences, example - Dr. Smith lives in the U.S.
 	

@@ -1,0 +1,7 @@
+Real Life Usage
+
+1. Speech Recognition - used in older speech system
+2. Time-Series Text/Data - eg - stock prediction, weather forecasting, sensor sequences
+3. Chatbots - older seq2seq chatbot systems used LSTMs
+4. Machine Translation - Encoder LSTM -> Decoder LSTM
+
