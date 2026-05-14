@@ -1,0 +1,6 @@
+Residual Connections - very imp. for deep networks
+
+Problem? - deep networks suffer from - vanishing gradient, information loss
+Solution? - add shortcut connection. y = F(x) + x
+Benefits? - easier gradient flow, stable training, enables deep models
+
