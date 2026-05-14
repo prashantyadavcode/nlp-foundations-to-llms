@@ -1,0 +1,27 @@
+Important Transformer models
+
+GPT - created by OpenAI
+    - type decoder only
+    - purpose - text generation
+    - eg - chatgpt, ai writing, code generation
+
+BERT - created by google
+     - type - encoder only
+     - purpose - language understanding
+     - tasks - search, classification, Q&A
+     - why bert bidirectional? 
+        - it reads both directions simultaneously
+        - eg - the bank approved the load
+        - BERT uses both left and right context to understand 'bank'
+
+RoBERTa - created by meta
+        - improved BERT - model training, better training strategy, no next-sentence prediction
+
+T5 - text to text Transformer
+   - everything converted into text format
+   eg - translate english to french
+
+DistilBERT - smaller version of BERT
+           - advantages - fast, lightweight, lower memory. 
+           - used in production systems
+
