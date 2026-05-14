@@ -1,0 +1,22 @@
+Sequence Generation
+
+Autoregressive generation loop:
+
+Input
+↓
+Predict next token
+↓
+Append token
+↓
+Repeat
+
+this is how chatgpt generates text
+
+
+Sampling methods - 
+modern LLMs don't always choose highest probability
+
+Methods - greedy (highest probability), top-k (random among top k), top-p (nucleus sampling), temperature (control creativity)
+
+Temperature -> low temp : more deterministic , high temp: more creative/random
+

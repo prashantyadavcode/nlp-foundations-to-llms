@@ -1,0 +1,20 @@
+Language Modeling - Foundations of LLMs
+
+language modeling is the core idea behind modern NLP and LLMs
+Goal - predict language patterns
+modern systems like - GPT, BERT and Llama are fundamental language models
+
+What is Lang. Model? - it learnes probability of word sequences
+eg - 'I love machine ___' -> 'learning' it predicts with high probability
+
+Core Goal - given previous words, predict next word.
+
+Sequence Probability - lang. model estimates P(w1, w2, w3, .. wn)
+                     - probability of an entire sentence
+
+Chain Rule of Probability
+- lang. models decompose sequence probability
+- means each word depends on previous words
+
+
+
