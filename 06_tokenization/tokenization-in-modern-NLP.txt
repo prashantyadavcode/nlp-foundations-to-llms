@@ -1,0 +1,11 @@
+Everthing starts with - 
+Text → Tokens → IDs → Embeddings → Model
+
+Types of Tokenization
+- Word - hugh vocab, doesn't work with unseen words (OOV), memory issues
+- Character - sequence becomes huge, no OOV problem , tiny vocab
+- Subword - best balance between word and character. 
+
+Byte Pair Encoding (BPE) - modern tokenizer
+- used in - GPT models, many LLMs
+- How BPE works? - starts with characters, then repeatedly merge frequent pairs.

@@ -1,0 +1,9 @@
+Word Tokenization
+↓
+Character Tokenization
+↓
+Subword Tokenization
+↓
+BPE / WordPiece / SentencePiece
+↓
+Modern LLM Tokenizers
