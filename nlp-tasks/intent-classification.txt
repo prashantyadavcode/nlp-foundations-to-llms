@@ -1,0 +1,9 @@
+Intent Classification - very important in chatbots.
+
+Goal - Understand user intention
+Eg - 'Book a flight' - Intent - 'Booking'
+   - 'Cancel my order' - Intent - 'Cancellation'
+   - 'Track shipment' - Intent - 'Tracking'
+
+Real Life Usage - Virtual assistant, customer support, banking bots
+

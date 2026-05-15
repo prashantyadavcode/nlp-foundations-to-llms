@@ -1,0 +1,14 @@
+Semantic Search
+
+traditional search - keyword matching
+semantic search - understands meaning
+
+Eg - query - 'car repair'
+   - can retrieve - 'automobile servicing' without exact keyword matching
+
+uses embedding - 
+    - sentence transfomers
+    - bert embedding
+    - vector DBs
+
+

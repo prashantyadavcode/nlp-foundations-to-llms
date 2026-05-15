@@ -1,0 +1,11 @@
+Rule-based NLP
+↓
+Statistical NLP
+↓
+Machine Learning NLP
+↓
+Deep Learning NLP
+↓
+Transformer-based NLP
+↓
+LLM-powered NLP
