@@ -1,0 +1,11 @@
+Accuracy
+↓
+Precision / Recall / F1
+↓
+BLEU / ROUGE
+↓
+Perplexity
+↓
+LLM Human Evaluation
+↓
+RAG & Agent Evaluation
