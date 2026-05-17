@@ -1,0 +1,10 @@
+Latency? - time taken to generate prediction
+Eg - Chatbot taking 15 sec is not acceptable
+
+Latency Optimization - 
+Method - Benefit
+Quantization - smaller models
+Distillation - faster inference
+Caching - reuse computation
+Smaller architectures - Lower compute
+

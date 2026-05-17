@@ -1,0 +1,12 @@
+Core component of RAG 
+
+Purpose - store embeddings for semantic search
+
+Popular Vector DBs - 
+Database - Type
+Pinecone - Managed vector DB
+Weaviate - Open-source
+Milvus - High-scale vector DB
+Chroma - Lightweight vector DB
+
+

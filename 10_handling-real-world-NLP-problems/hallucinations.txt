@@ -1,0 +1,17 @@
+Hallucinations? - LLM generates - confident but false information
+
+Eg - LLM invents fake citation or fake fact
+
+Why Hallucinations Happen? 
+- LLM predicts - most probable next token - not factual truth
+
+Solutions -
+
+Hallucination Reduction Techniques - 
+Method - Purpose
+RAG - ground reponses in retrieved docs
+Better prompts - reduce ambiguity
+fine-tuning - domain adaptation
+verification systems - fact checking
+smaller temperature - less randomness
+

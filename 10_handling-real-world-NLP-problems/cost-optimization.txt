@@ -1,0 +1,15 @@
+LLMs are expensive
+
+Major costs - 
+Resource - Cost
+GPU inference - High
+Token usage - Expensive
+Long prompts - more compute
+
+Cost Reduction Strategies - 
+Method - Benefit
+Prompt compression - fewer tokens
+Quantization - lower memory
+Distillation - Smaller model
+Caching - Reduced API calls
+

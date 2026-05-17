@@ -1,0 +1,11 @@
+Multilingual Data - global applications require multilingual NLP
+
+Challenges - 
+Problem - Example
+Mixed lang. - Hinglish
+Different scripts - Arabic/Chinese
+Low-resource languages - Limited DeprecationWarning
+
+Solutions - mBERT, XLM-R, LLaMA multilingual variants
+Eg - 'kal meeting hai bro' - Mixed Hindi + English
+

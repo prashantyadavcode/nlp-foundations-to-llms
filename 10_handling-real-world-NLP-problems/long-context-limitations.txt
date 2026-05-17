@@ -1,0 +1,18 @@
+Even modern LLMs struggle with - 
+- very long documents
+- memory dilution
+- retrieval failure
+
+Problem - 
+Issue - Meaning
+attention cost - expensive computation
+loss-in-middle - mid-context ignored
+memory scaling - huge-GPU-uage
+
+Solutions - 
+Method - Purpose
+RAG - retrieve only relevant chunks
+Chucking - smaller context window
+Compression - reduce tokens
+Sliding windows - sequential processing
+

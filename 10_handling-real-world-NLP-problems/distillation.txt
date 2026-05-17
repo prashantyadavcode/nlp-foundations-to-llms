@@ -1,0 +1,8 @@
+teacher-student training
+
+idea - large model teaches smaller model
+
+# Eg - Teacher-Student -> BERT - DistilBERT
+
+# Benefits - smaller, faster, cheaper
+

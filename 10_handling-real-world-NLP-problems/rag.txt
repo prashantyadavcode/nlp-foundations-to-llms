@@ -1,0 +1,25 @@
+RAG - Retrieval Augmented Generation
+
+Problem - LLMs cannot memorize everything
+
+
+RAG Solution - 
+
+Retrieve relevant documents first
+↓
+Pass retrieved context to LLM
+↓
+Generate grounded response
+
+
+RAG Pipeline - 
+
+User Query
+↓
+Embedding Model
+↓
+Vector Search
+↓
+Retrieved Documents
+↓
+LLM Response

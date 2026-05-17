@@ -1,0 +1,18 @@
+Bias in dataset
+
+Bias? - model learns unfair patterns
+Eg - Resume model trained mostly on male resumes - may unfairly rank candidates
+
+Source of bias - 
+Source - Explanation
+Data Imbalance - Unequal representation
+Historical bias - exisiting societal bias
+Sampling bias - non-representative data
+
+Mitigation Techniques
+Technique - Purpose
+Diverse datasets - better representation
+Bias audits - detect unfairness
+Human review - validation
+Fairness metrics - monitoring
+
