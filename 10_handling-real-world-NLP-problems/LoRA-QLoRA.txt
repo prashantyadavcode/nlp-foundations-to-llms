@@ -1,0 +1,9 @@
+LoRA/QLoRA - very imp. modern LLM topic
+
+Problem? full fine-tuning is expensive
+
+LoRA (Low-Rank Adaptation) - train only small adapter metrics
+benefits - lower GPU memory, faster training, cheaper fine-tuning
+
+QLoRA - combines Quantization and LoRA - for extremely memory-efficient fine-tuning
+

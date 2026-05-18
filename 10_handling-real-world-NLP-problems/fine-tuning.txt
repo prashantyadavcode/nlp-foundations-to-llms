@@ -1,0 +1,7 @@
+Fine Tuning
+- train model further on domain-specific data
+
+Eg - Medical chatbot fine-tuned on: - Clinical reports, Healthcare QA
+
+Benefits - Domain adaptation, Better task performance, Improved terminology understanding
+

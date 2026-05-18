@@ -1,0 +1,11 @@
+Prompt Eng. - design prompts to improve outputs
+
+Techniques - 
+
+Technique - Purpose
+zero-shot - no examples
+few-shot - example-based
+chain-of-thoughts - step reasoning
+system-prompts - behavioral control
+
+Eg - 'Answer only using provided contxt' - helps reduce hallucinations

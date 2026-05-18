@@ -1,0 +1,15 @@
+Transformer Model
+↓
+Embeddings
+↓
+Vector Database
+↓
+RAG
+↓
+Prompt Engineering
+↓
+Fine-Tuning / LoRA
+↓
+Deployment
+↓
+Monitoring & Drift Detection

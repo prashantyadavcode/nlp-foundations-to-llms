@@ -1,0 +1,17 @@
+User Query
+↓
+Load Balancer
+↓
+API Server
+↓
+Embedding Model
+↓
+Vector Database
+↓
+Retrieved Context
+↓
+LLM
+↓
+Post-processing
+↓
+Response
