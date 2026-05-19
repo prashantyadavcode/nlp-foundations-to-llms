@@ -1,0 +1,12 @@
+Prompt Templates?
+
+Eg - 'You're a helpful assistant
+
+Context: {retrieval_docs}
+
+Question: {user_query}'
+
+
+Why Template matters?
+Benefits: Consistency, better outputs, easier scaling, reduced hallucinations
+

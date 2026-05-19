@@ -1,0 +1,18 @@
+Context Window? - maximum tokens model can process at once
+
+Eg - 
+Model - Approx Context
+GPT-2 - 1024
+Modern-GPT-systems - 100K+ possible
+
+Problem with long context - 
+Issue - Meaning
+High compute - Expensive attention
+Lost-in-middle - middle context ignored
+Latency - slower inference
+
+Solutions - 
+Method - Purpose
+RAG - Retrieve only relevant chunks
+Compression - reduce token count
+Smart chunking - better retrieval
