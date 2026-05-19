@@ -10,3 +10,5 @@ Milvus - High-scale vector DB
 Chroma - Lightweight vector DB
 
 
+Semantic Search Example - 
+Query - 'car repair' - Finds - 'automobile servicing' via embeddings

@@ -23,3 +23,11 @@ Vector Search
 Retrieved Documents
 ↓
 LLM Response
+
+
+Benefits - 
+Benefits - Explanation 
+Reduced hallucination - grounded context
+Updatable knowledge - No retraining
+Domain-specific QA - Enterprise Use
+

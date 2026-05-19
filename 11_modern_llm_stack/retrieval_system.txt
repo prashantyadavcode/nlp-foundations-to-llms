@@ -1,0 +1,22 @@
+Core of RAG architecture
+Goal - retrieve relevant information before generation
+
+Retrieval Pipeline ->
+
+User Query
+↓
+Embedding
+↓
+Similarity Search
+↓
+Top-K Chunks
+↓
+LLM Context
+
+Why Retrieval matters? 
+LLMs alone: Hallucinate, Lack real-time knowledge, Forget enterprise data
+Retrieval fixes this
+
+
+
+
