@@ -1,0 +1,11 @@
+Text
+↓
+Tokenizer
+↓
+POS Tagger
+↓
+NER
+↓
+Dependency Parser
+↓
+Processed Document

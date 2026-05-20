@@ -1,0 +1,11 @@
+Incoming Text
+↓
+spaCy Tokenization
+↓
+NER + POS + Parsing
+↓
+Feature Extraction
+↓
+Embedding Generation
+↓
+Search / ML Model / LLM
