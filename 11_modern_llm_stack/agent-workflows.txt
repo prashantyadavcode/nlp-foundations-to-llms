@@ -1,0 +1,26 @@
+What is an AI Agent?
+- LLM System that can - reason, use tools, plan actions and execute workflows
+
+
+Example Agent Flow - 
+
+User asks:
+"Book cheapest flight tomorrow"
+Agent:
+↓
+Search flights
+↓
+Compare prices
+↓
+Use booking API
+↓
+Return result
+
+Agent Components - 
+Component - Purpose 
+LLM - Reasoning
+Memory - Conversation state
+Tools - External actions
+Planner - Multi-step execution
+
+

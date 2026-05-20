@@ -1,0 +1,19 @@
+Embeddings
+↓
+Chunking
+↓
+Vector Databases
+↓
+Retrieval (RAG)
+↓
+Prompt Engineering
+↓
+LLMs
+↓
+Tool Calling
+↓
+Agents
+↓
+Fine-Tuning / LoRA
+↓
+Deployment & Monitoring

@@ -1,0 +1,15 @@
+User Query
+↓
+Prompt Template
+↓
+Embedding Model
+↓
+Vector Database Retrieval
+↓
+Retrieved Chunks
+↓
+LLM
+↓
+Tool Calling / Agent Actions
+↓
+Final Response

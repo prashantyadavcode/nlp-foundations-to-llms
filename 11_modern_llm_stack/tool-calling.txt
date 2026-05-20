@@ -1,0 +1,22 @@
+What is Tool Calling? - LLM invokes external systems.
+
+Examples - 
+Tool - Purpose 
+Weather API - real-time Weather
+SQL DB - database queries
+Search Engine - Web retrieval
+Calculator - Math
+
+Example Workflow - 
+
+User:
+"What is weather in Delhi?"
+LLM:
+↓
+Calls weather API
+↓
+Returns real-time answer
+
+Why tool calling matters - 
+LLMs alone cannot - access real-time data, perform reliable calculations, execute actions - tools solve this
+

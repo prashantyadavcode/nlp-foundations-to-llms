@@ -1,0 +1,3 @@
+NLTK - Educational NLP toolkit
+Used for - Tokenization, Stemming, Traditional NLP
+
