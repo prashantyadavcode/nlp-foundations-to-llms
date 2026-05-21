@@ -12,3 +12,4 @@ from transformers import AutoModel
 model = AutoModel.from_pretrained(
     "./my_model"
 )
+
