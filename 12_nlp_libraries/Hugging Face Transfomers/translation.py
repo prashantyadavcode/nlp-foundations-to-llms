@@ -1,0 +1,11 @@
+from transformers import pipeline
+
+translator = pipeline(
+    "translation_en_to_fr"
+)
+
+result = translator(
+    "Machine learning is amazing"
+)
+
+print(result)
