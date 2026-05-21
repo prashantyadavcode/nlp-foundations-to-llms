@@ -21,4 +21,3 @@ kmeans.fit(embeddings)
 print(kmeans.labels_)
 
 # Output - [0, 0, 1, 1] - sports grouped together and AI grouped together.
-# 
